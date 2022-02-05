@@ -1,3 +1,5 @@
 module "resources" {
-  source = "../resources"
+  source   = "../resources"
+  env_name = "prod"
+  project  = "my_project"
 }
